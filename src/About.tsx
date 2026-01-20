@@ -16,7 +16,7 @@ export const About = function () {
           <strong>Node.js and React </strong>ecosystem, with experience
           designing and integrating <strong>SQL and MongoDB databases</strong>.
           My primary drive is in backend and systems architecture, with a keen
-          interest in expanding my knowledge into
+          interest in expanding my knowledge into{" "}
           <strong>low-level and systems programming</strong>.
         </p>
       </div>
