@@ -11,13 +11,6 @@ type ProjectProps = {
 const Project = (props: ProjectProps) => {
   return (
     <div id="projects" className="flex flex-row gap-2">
-      {!!props.img ? (
-        <div className="rounded-2xl overflow-hidden max-w-35 h-fit">
-          <img className="h-full max-w-full" src={props.img} />
-        </div>
-      ) : (
-        <></>
-      )}
       <div className="flex flex-col w-fit">
         <a
           href={props.github}
@@ -37,7 +30,7 @@ const Project = (props: ProjectProps) => {
             </div>
           ))}
         </div>
-        <p className="text-sm">{props.description}</p>
+        <p className="">{props.description}</p>
       </div>
     </div>
   );
@@ -47,7 +40,7 @@ export const Projects = () => {
   return (
     <div className="flex flex-col gap-4 p-4">
       <h1 className="text-3xl font-mono font-bold">Personal projects</h1>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-2">
         <Project
           name="Spring JWT Text"
           stack={[

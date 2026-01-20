@@ -36,19 +36,23 @@ export default function Hero(props: HeroProps) {
           <a href="https://www.github.com/jmermar">
             <BsGithub />
           </a>
-          <div
-            className="flex flex-row gap-2 items-center"
-            style={{ fontSize: "1.25em" }}
-          >
-            <PiMailboxFill />
-            <p className="text-sm font-bold font-mono">josesmerono@gmail.com</p>
-          </div>
-          <div
-            className="flex flex-row gap-2 items-center"
-            style={{ fontSize: "1.25em" }}
-          >
-            <PiPhoneFill />
-            <p className="text-sm font-bold font-mono">+34 626 53 23 76</p>
+          <div className="flex flex-row flex-wrap gap-2">
+            <div
+              className="flex flex-row gap-2 items-center"
+              style={{ fontSize: "1.25em" }}
+            >
+              <PiMailboxFill />
+              <p className="text-sm font-bold font-mono">
+                josesmerono@gmail.com
+              </p>
+            </div>
+            <div
+              className="flex flex-row gap-2 items-center"
+              style={{ fontSize: "1.25em" }}
+            >
+              <PiPhoneFill />
+              <p className="text-sm font-bold font-mono">+34 626 53 23 76</p>
+            </div>
           </div>
         </div>
       </div>

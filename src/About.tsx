@@ -8,9 +8,17 @@ const AboutLine = ({ title, content }: { title: string; content: string }) => {
 
 export const About = function () {
   return (
-    <div id="about" className="px-4 flex flex-col gap-2">
+    <div id="about" className="px-4 flex flex-col gap-2 ">
       <div>
         <h1 className="font-mono text-3xl font-bold">About Me</h1>
+        <p>
+          <strong>FullStack Developer</strong> proficient in the{" "}
+          <strong>Node.js and React </strong>ecosystem, with experience
+          designing and integrating <strong>SQL and MongoDB databases</strong>.
+          My primary drive is in backend and systems architecture, with a keen
+          interest in expanding my knowledge into
+          <strong>low-level and systems programming</strong>.
+        </p>
       </div>
       <div>
         <h2 className="font-mono text-2xl font-bold">Skills</h2>

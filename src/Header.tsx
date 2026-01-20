@@ -6,7 +6,7 @@ const NavElement = function ({ title, href }: { title: string; href: string }) {
   return (
     <a
       href={href}
-      className="font-mono px-4 py-2 text-white hover:bg-gray-950 transition flex items-center"
+      className="font-mono px-4 py-2 text-white hover:bg-gray-950 transition duration-360 flex items-center"
     >
       {title}
     </a>
