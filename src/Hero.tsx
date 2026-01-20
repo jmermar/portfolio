@@ -5,10 +5,10 @@ export type HeroProps = {};
 export default function Hero(props: HeroProps) {
   return (
     <div className="flex flex-row w-full px-4 py-2 align-baseline gap-4 mt-12 flex-wrap">
-      <div className="rounded-4xl overflow-hidden max-w-3xs h-fit">
+      <div className="rounded-4xl overflow-hidden max-w-50 h-fit">
         <img className="h-full max-w-full" src="/profile.webp" />
       </div>
-      <div className="grow flex flex-col gap-2 max-w-xl">
+      <div className="grow flex flex-col gap-2 max-w-md">
         <h1 className="font-mono text-3xl font-bold">
           Hi, I'm José Meroño Martínez, a developer focused in fullstack based
           in Spain.
