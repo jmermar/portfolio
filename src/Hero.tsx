@@ -1,21 +1,34 @@
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import {
+  BsLinkedin,
+  BsGithub,
+  BsMailbox,
+  BsPhone,
+  BsPhoneFill,
+  BsPcHorizontal,
+} from "react-icons/bs";
+import { PiMailbox, PiMailboxFill, PiPhone, PiPhoneFill } from "react-icons/pi";
 
 export type HeroProps = {};
 
 export default function Hero(props: HeroProps) {
   return (
-    <div className="flex flex-row w-full px-4 py-2 align-baseline gap-4 mt-12 flex-wrap">
-      <div className="rounded-4xl overflow-hidden max-w-50 h-fit">
+    <div
+      id="contact"
+      className="flex flex-row w-full px-4 py-2 align-baseline gap-4 mt-12 flex-wrap"
+    >
+      <div className="rounded-4xl overflow-hidden max-w-30 h-fit">
         <img className="h-full max-w-full" src="/profile.webp" />
       </div>
-      <div className="grow flex flex-col gap-2 max-w-md">
-        <h1 className="font-mono text-3xl font-bold">
-          Hi, I'm José Meroño Martínez, a developer focused in fullstack based
-          in Spain.
+      <div className="grow flex flex-col  max-w-xl">
+        <h1 className="font-mono text-4xl font-bold text-gray-900">
+          José Meroño Martínez.
         </h1>
+        <h2 className="font-mono text-2xl font-bold text-gray-800">
+          Fullstack developer
+        </h2>
         <div
           className="flex flex-row flex-wrap gap-4 items-center"
-          style={{ fontSize: "1.5em" }}
+          style={{ fontSize: "1.75em" }}
         >
           <a href="https://www.linkedin.com/in/josemeronomartinezjmermar">
             <BsLinkedin />
@@ -23,20 +36,21 @@ export default function Hero(props: HeroProps) {
           <a href="https://www.github.com/jmermar">
             <BsGithub />
           </a>
-          <a
-            className="text-sm font-bold font-mono"
-            href="josesmerono@gmail.com"
+          <div
+            className="flex flex-row gap-2 items-center"
+            style={{ fontSize: "1.25em" }}
           >
-            josesmerono@gmail.com
-          </a>
+            <PiMailboxFill />
+            <p className="text-sm font-bold font-mono">josesmerono@gmail.com</p>
+          </div>
+          <div
+            className="flex flex-row gap-2 items-center"
+            style={{ fontSize: "1.25em" }}
+          >
+            <PiPhoneFill />
+            <p className="text-sm font-bold font-mono">+34 626 53 23 76</p>
+          </div>
         </div>
-        <p className="font-mono text-sm">
-          I've been working with Node.js and React profesionally, building
-          RESTful APIs from the ground for e-commerce and SaaS platforms.
-        </p>
-        <p className="font-mono  text-sm">
-          I've also worked with SQL and non SQL databases.
-        </p>
       </div>
     </div>
   );
