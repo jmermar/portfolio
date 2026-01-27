@@ -1,4 +1,3 @@
-import { PiMailbox, PiMailboxFill, PiPhone, PiPhoneFill } from "react-icons/pi";
 import { GithubIcon } from "./icons/GithubIcon";
 import { LinkedinIcon } from "./icons/LinkedinIcon";
 import { MailIcon } from "./icons/MailIcon";

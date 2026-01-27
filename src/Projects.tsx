@@ -1,5 +1,3 @@
-import { BsGithub } from "react-icons/bs";
-
 type ProjectProps = {
   name: string;
   img?: string;
