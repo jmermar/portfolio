@@ -60,16 +60,10 @@ export const Projects = () => {
           github="https://github.com/jmermar/storybook-react-editable-context"
         />
         <Project
-          name="HTTP static server"
-          stack={["C", "Unix"]}
-          description="Static server by implementing HTTP 1.1 protocol from scratch in C and only using standard library and Unix syscalls, right now it can handle client request, parse it, and either return the requested file, reject forbidden request methods or return a not found error if file could not be found."
-          github="https://github.com/jmermar/simple-static-server"
-        />
-        <Project
           name="AABlocks"
           img="aablocks.webp"
           stack={["C++", "Vulkan", "SQLite", "CMake"]}
-          description="Voxel based game with multithreading, modern rendering techniques user interface, random world generation and persistence using SQL databases."
+          description="Voxel based game with multithreading, modern rendering techniques, user interface, random world generation and persistence using SQL databases."
           github="https://github.com/jmermar/AABBlocks"
         />
         <Project

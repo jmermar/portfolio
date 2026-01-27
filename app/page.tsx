@@ -9,9 +9,11 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-start  bg-white dark:bg-black sm:items-start">
         <Header title="José Meroño Martínez" />
-        <Hero />
-        <About />
-        <Projects />
+        <div className="flex flex-col gap-4 pt-4">
+          <Hero />
+          <About />
+          <Projects />
+        </div>
         <Footer />
       </main>
     </div>
